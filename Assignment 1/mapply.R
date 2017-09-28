@@ -18,8 +18,8 @@ loop_for_mapply_function<-function(mA,mB,mC){
 }
 
 mmA <-replicate(10, rnorm(20))
-mmB <- rnorm(10)
-mmC <- rnorm(20)
+mmB <- replicate(5, rnorm(10))
+mmC <- replicate(20, rnorm(10))
 
 benchmarkR<-microbenchmark(mapply_function(mmA,mmB,mmC),loop_for_mapply_function(mmA,mmB,mmC),times = 300L)
 autoplot(benchmarkR,log=TRUE)
