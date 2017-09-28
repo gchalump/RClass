@@ -1,2 +1,7 @@
 This folder contain codes for assignment 1
-mapply.r
+mapply.r - R code for mapply example and looping function
+rapply.r - R code for rapply example and looping function
+tapply.r - R code for tapply example and looping function
+mapplyPlot.png - Figure of autoplot from microbechmark comparing using mapply function and looping.
+rapplyPlot.png - Figure of autoplot from microbechmark comparing using rapply function and looping.
+tapplyPlot.png - Figure of autoplot from microbechmark comparing using tapply function and looping.
