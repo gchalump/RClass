@@ -1,3 +1,9 @@
 This is for final project submission in
 CS5331 Data Analysis and Machine Learning with R
 Computer Science, Texas Tech University
+
+
+The file need to run in order
+Data Cleansing.R
+xgboost.R
+remove_overall.R
