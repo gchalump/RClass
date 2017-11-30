@@ -7,3 +7,6 @@ The file need to run in order
 Data Cleansing.R
 xgboost.R
 remove_overall.R
+
+The data can be download through Kaggel website:
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques
