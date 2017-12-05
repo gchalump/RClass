@@ -23,5 +23,6 @@ x <- irissubdf[, c(1, 2)]
 y <- irissubdf[, 4]
 
 #example functions
+library(simpercep)
 simplePerceptron(x,y,init_w = c(-2,1,2),eta = 0.5 ,max_epoch = 10 ,accepted_error = 0.01)
 simplePerceptron(x,y,init_w = c(-2,1,2),eta = 0.5 ,max_epoch = 10 ,accepted_error = 0.005)
